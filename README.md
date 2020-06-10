@@ -13,8 +13,8 @@ The dataset CK+ contains 981 images of size 48x48x3. The dataset contains the fo
 The whole code is provided in Emotion.ipynb. It splits the data into train (80%) and test (20%) and trains a 6 layer CNN with both Softmax and Center Loss. The notebook also contains the network with just 2-dimensional features to show the robustness and learning of Center loss as compared to Softmax Loss.
 
 #Requirements
-NVIDIA GPU
-Pytorch 1 or above
+NVIDIA GPU,
+Pytorch 1 or above,
 SKLearn, Numpy, Matplotlib
 
 #How to Run
